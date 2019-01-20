@@ -1,0 +1,17 @@
+name: codb
+version: 0.1.0
+
+authors:
+  - sumwatt <colson@cogfactory.net>
+
+targets:
+  codb:
+    main: src/codb.cr
+
+dependencies:
+  msgpack:
+    github: crystal-community/msgpack-crystal
+
+crystal: 0.27.0
+
+license: MIT
