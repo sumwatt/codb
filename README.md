@@ -2,6 +2,8 @@
 
 A basic key-value database. Right now it is a learning experiment. There are other, better solutions so this is mostly for my own personal education
 
+The ultimate idea would be to integrate multiple interfaces on an existing key-value database. I chose MessagePack for type preservation rather than having to re-write code for msgpack -> crystal types.
+
 ## Installation
 
 Clone it:
@@ -48,4 +50,4 @@ The server sucks but it is partly based on sample code from the docs, test code 
 
 ## Contributors
 
-- [sumwatt](https://github.com/your-github-user) - creator and maintainer
+- [sumwatt](https://github.com/sumwatt) - creator and maintainer
